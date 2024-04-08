@@ -1,0 +1,16 @@
+name: 'Version Generator'
+description: 'Generate new version'
+inputs:
+  current_version:
+    required: true
+    description: 'Current version'
+  increment_type:
+    required: false
+    description: 'Increment type (major, minor or patch)'
+    default: 'patch'
+outputs:
+  version:
+    description: 'Newly generated version'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

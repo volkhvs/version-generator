@@ -1,0 +1,7 @@
+dist/
+coverage/
+.idea/
+.github/
+**/coverage
+**dist/
+src/resources/**
