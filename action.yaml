@@ -1,4 +1,4 @@
-name: 'Version Generator'
+name: 'Version Generator Action'
 description: 'Generate new version'
 inputs:
   current_version:
