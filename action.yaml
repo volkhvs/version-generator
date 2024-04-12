@@ -11,6 +11,9 @@ inputs:
 outputs:
   version:
     description: 'Newly generated version'
+branding:
+  icon: "tag"
+  color: "red"
 runs:
   using: 'node20'
   main: 'dist/index.js'
